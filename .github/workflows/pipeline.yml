@@ -27,7 +27,7 @@ jobs:
         run: npm run build
       - name: Test
         run: npm test
-      ## these tests take too long
+      # these tests take too long
       # - name: Install Playwright Browsers
       #   run: npx playwright install --with-deps
       # - name: Run Playwright tests
